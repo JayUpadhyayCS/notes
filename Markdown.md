@@ -1,2 +1,2 @@
 # Markdown
-* Before and after a word makes it italic.
+'*' Before and after a word makes it italic.
