@@ -32,5 +32,10 @@ There are two types of links.
 
 ## Lists
 
-'*'An unordered lists make uses the star symbol. It shows up as a bullet point.
+'*'An unordered lists make uses the star symbol. It shows up as a bullet point. You can also nest it by leaving a space.
+
 '1." An ordered list is written exactly as it turns out.
+
+## Paragraph Stuff
+'  'If you have two spaces at the end of a line, its considered a soft break and will end the line.  
+If you add an extra line between text then it will create a new line.
