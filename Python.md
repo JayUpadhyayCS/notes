@@ -4,6 +4,19 @@
 
 Save the file with the ending .py  
 To run a program with python, you run python (name of program).py
+You need to call any functions you use
+
+## Datatypes
+* bool-True or false  
+* float- Decimal integer  
+* int- Integer  
+* str - String  
+* complex  
+* dict  
+* list  
+* range  
+* set  
+* tuple  
 
 ## To print something in python
 >def main():  
@@ -13,7 +26,7 @@ To run a program with python, you run python (name of program).py
 
 Def means define me a function. You do not need to explicitly mention what datatype you are using for the function.
 
-If name==main is used to start the function  
+_If name==main is used to start the function._ Need to know more about this   
 Python code will not run if you have not indented things properly.   
 Usually a colon and then an indent everyline following.   
 ## Example of a while loop
@@ -36,14 +49,16 @@ else:
 
 Instead of else if, it becomes elif. Notice how : is being used instead of semicolon. 
 
-## Datatypes
-* bool-True or false  
-* float- Decimal integer  
-* int- Integer  
-* str - String  
-* complex  
-* dict  
-* list  
-* range  
-* set  
-* tuple  
+## Basic python program
+>from cs50 import get_string  
+>s =get_string("name:")  
+>print(f"hello,{s}")  
+>print("hello,{}".format(s))
+
+Need to import functions from library using the above syntax.  
+There are two ways to implement a string into print shown above. 
+
+## Python Arithmetic
+
+There are two ways to use division. In C it would not be accurate towards decimals as an int, however in python if you use / it will give you proper output. If you wish to use C's divison, // will do that.
+
