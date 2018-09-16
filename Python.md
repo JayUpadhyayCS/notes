@@ -2,6 +2,6 @@
 
 To print something in python
 >def main():  
- print("hello,world")  
+     print("hello,world")  
 >if _name_ == "_main_":  
-  main()  
+     main()  
