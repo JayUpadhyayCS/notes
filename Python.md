@@ -4,7 +4,9 @@
 
 Save the file with the ending .py  
 To run a program with python, you run python (name of program).py
-You need to call any functions you use
+You need to call any functions you use.  
+Double quotes are equivalent. 
+You dont need a main function if its a simple program without functions. 
 
 ## Datatypes
 * bool-True or false  
@@ -49,6 +51,14 @@ else:
 
 Instead of else if, it becomes elif. Notice how : is being used instead of semicolon. 
 
+## Substitue for do while loop
+def get_positive_int(prompt)
+while True:
+n=getint(prompt)
+if n>=1:
+return n
+
+
 ## Basic python program
 >from cs50 import get_string  
 >s =get_string("name:")  
@@ -61,4 +71,28 @@ There are two ways to implement a string into print shown above.
 ## Python Arithmetic
 
 There are two ways to use division. In C it would not be accurate towards decimals as an int, however in python if you use / it will give you proper output. If you wish to use C's divison, // will do that.
+
+'**' Is giving an exponent
+
+## Comments
+
+"""This is a comment"""
+
+## Lists
+
+>book=[]
+>1,
+>2,
+>3
+
+## Class aka struct
+
+class Student:
+def__init__(self,name,dorm):
+self.name=name
+self.dorm=dorm
+## Python information
+
+len is a function used to find out length of a string.  
+sys needs to be imported to use argc(count amount of words in commandline) and argv(which word is being used) 
 
