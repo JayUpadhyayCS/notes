@@ -25,6 +25,6 @@ True and False need to be capital in python.
 >if x < y :  
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("1")  
 >elif x > y:  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("2")
-else:
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("3")
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("2")  
+else:  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("3")  
