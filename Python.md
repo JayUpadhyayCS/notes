@@ -1,5 +1,10 @@
 # Python
 
+## Running python program
+
+Save the file with the ending .py  
+To run a program with python, you run python (name of program).py
+
 ## To print something in python
 >def main():  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     print("hello,world")  
@@ -28,3 +33,17 @@ True and False need to be capital in python.
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("2")  
 else:  
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("3")  
+
+Instead of else if, it becomes elif. Notice how : is being used instead of semicolon. 
+
+## Datatypes
+* bool-True or false  
+* float- Decimal integer  
+* int- Integer  
+* str - String  
+* complex  
+* dict  
+* list  
+* range  
+* set  
+* tuple  
