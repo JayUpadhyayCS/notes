@@ -87,10 +87,10 @@ There are two ways to use division. In C it would not be accurate towards decima
 
 ## Class aka struct
 
-class Student:
-def__init__(self,name,dorm):
-self.name=name
-self.dorm=dorm
+>class Student:
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def__init__(self,name,dorm):
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.name=name
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dorm=dorm
 ## Python information
 
 len is a function used to find out length of a string.  
