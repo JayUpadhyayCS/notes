@@ -8,6 +8,7 @@
 ## Answers 
 
 * (Q1) What is the name of the created directory?
+*
         jupad002_lab1
 * (Q2) What do you see at the console output?
         Hello World!
